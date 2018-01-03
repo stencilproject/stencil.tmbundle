@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Indentation for HTML</string>
+	<key>scope</key>
+	<string>text.html.stencil</string>
+	<key>settings</key>
+	<dict>
+		<key>decreaseIndentPattern</key>
+		<string>(?x)
+		^\s*
+		(\{%\s(?:elif|else|empty|endblock|endif|endfilter|endfor)
+		|&lt;/(?!html)[A-Za-z0-9]+\b[^&gt;]*&gt;
+		|--&gt;)</string>
+		<key>disableIndentCorrections</key>
+		<string>emptyLines</string>
+		<key>increaseIndentPattern</key>
+		<string>(?x)
+		\{%\s(block|if|filter|for)(?!.*\{%\send\1)
+		|\{%\s(?:elif|else)(?!.*\{%\sendif)
+		|\{%\s(?:empty)(?!.*\{%\sendfor)
+		|&lt;(?!(?:area|base|br|col|frame|hr|html|img|input|link|meta|param|wbr)\b|[^&gt;]*/&gt;)([A-Za-z0-9]+)(?=\s|&gt;)\b[^&gt;]*&gt;(?!.*&lt;/\1&gt;)
+		|&lt;!--(?!.*--&gt;)</string>
+	</dict>
+	<key>uuid</key>
+	<string>18219B8E-E4E9-4B3B-8820-0FA9D5AB74A1</string>
+</dict>
+</plist>

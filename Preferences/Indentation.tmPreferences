@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Indentation</string>
+	<key>scope</key>
+	<string>text.stencil</string>
+	<key>settings</key>
+	<dict>
+		<key>decreaseIndentPattern</key>
+		<string>^\s*\{%\s(?:elif|else|empty|endblock|endif|endfilter|endfor)</string>
+		<key>disableIndentCorrections</key>
+		<string>emptyLines</string>
+		<key>increaseIndentPattern</key>
+		<string>(?x)
+		\{%\s(block|if|filter|for)(?!.*\{%\send\1)
+		|\{%\s(?:elif|else)(?!.*\{%\sendif)
+		|\{%\s(?:empty)(?!.*\{%\sendfor)</string>
+	</dict>
+	<key>uuid</key>
+	<string>8B2F16E8-3E3C-4A95-A468-CF244DB23555</string>
+</dict>
+</plist>

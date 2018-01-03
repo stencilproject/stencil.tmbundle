@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>{% include "${1:template}" %}
+$0</string>
+	<key>name</key>
+	<string>include</string>
+	<key>scope</key>
+	<string>text.stencil, text.html.stencil</string>
+	<key>tabTrigger</key>
+	<string>include</string>
+	<key>uuid</key>
+	<string>E5FCE191-F076-40B4-9EC8-3C7F913C115F</string>
+</dict>
+</plist>

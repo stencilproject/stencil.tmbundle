@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string>fgrira.inavzcr@vpybhq.pbz</string>
+	<key>contactName</key>
+	<string>Steven Van Impe</string>
+	<key>description</key>
+	<string>Support for the &lt;a href="https://stencil.fuller.li"&gt;Stencil&lt;/a&gt; template language.</string>
+	<key>name</key>
+	<string>Stencil</string>
+	<key>uuid</key>
+	<string>81A310DF-B9F0-4562-90B3-BE27D4831D06</string>
+</dict>
+</plist>
