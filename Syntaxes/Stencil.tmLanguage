@@ -172,7 +172,7 @@
 					<key>applyEndPatternLast</key>
 					<integer>1</integer>
 					<key>begin</key>
-					<string>(?&lt;=filter)\s*</string>
+					<string>(?&lt;=\{%\sfilter)\s*</string>
 					<key>comment</key>
 					<string>A list of filters to apply in a filter tag.</string>
 					<key>end</key>
