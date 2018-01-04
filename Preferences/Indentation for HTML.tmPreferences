@@ -21,7 +21,7 @@
 		\{%\s(block|if|filter|for)(?!.*\{%\send\1)
 		|\{%\s(?:elif|else)(?!.*\{%\sendif)
 		|\{%\s(?:empty)(?!.*\{%\sendfor)
-		|&lt;(?!(?:area|base|br|col|frame|hr|html|img|input|link|meta|param|wbr)\b|[^&gt;]*/&gt;)([A-Za-z0-9]+)(?=\s|&gt;)\b[^&gt;]*&gt;(?!.*&lt;/\1&gt;)
+		|&lt;(?!(?:area|base|br|col|frame|hr|html|img|input|link|meta|param|wbr)\b|[^&gt;]*/&gt;)([A-Za-z0-9]+)(?=\s|&gt;)\b[^&gt;]*&gt;(?!.*&lt;/\2&gt;)
 		|&lt;!--(?!.*--&gt;)</string>
 	</dict>
 	<key>uuid</key>
