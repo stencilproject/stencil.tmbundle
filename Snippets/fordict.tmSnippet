@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% for ${1:key}, ${2:value} in ${3:dictionary} %}
+	<string>{% for ${1:key},${2:value} in ${3:dictionary} %}
 	$0
 {% endfor %}</string>
 	<key>name</key>
